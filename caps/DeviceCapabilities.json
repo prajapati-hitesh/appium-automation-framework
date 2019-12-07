@@ -1,0 +1,38 @@
+{
+  "platformToRunOn": "Android",
+  "android": {
+    "platformName": "Android",
+    "automationName": "UiAutomator2",
+    "app": null,
+    "browserName": "Chrome",
+    "newCommandTimeout": 120,
+    "orientation": "PORTRAIT",
+    "noReset": true,
+    "enablePerformanceLogging": true,
+    "appPackage": "com.imriel.NER",
+    "appActivity": "md521a3ad8fefa5cf65356a32cd4e6986d1.MainActivity"
+  },
+  "iOS": {
+    "platformName": "iOS",
+    "automationName": "XCUITest",
+    "app": null,
+    "bundleId": "com.imriel.ner",
+    "launchTimeout": 80000
+  },
+  "hostMachines": [
+    {
+        "appiumServerIP": "http://127.0.0.1:4723/wd/hub",
+        "realDevice": [
+          {
+            "androidDeviceName": "Nexus 6P",
+            "androidOSVersion": "8.1.0"
+          },
+          {
+            "iOSDeviceName": "iPhone 7",
+            "iOSVersion": "14.2",
+            "iOSUdid": ""
+          }
+        ]
+    }
+  ]
+}

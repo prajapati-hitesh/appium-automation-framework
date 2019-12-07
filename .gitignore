@@ -1,0 +1,4 @@
+/target/
+/appium-server-logs/
+*.log
+/test-output/
