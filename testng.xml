@@ -11,11 +11,11 @@
         <parameter name="platform-name" value="Android" />
         <parameter name="platform-version" value="8.1.0" />
         <parameter name="automation-name" value="UiAutomator2" />
-        <parameter name="app-package" value="com.imriel.NER" />
-        <parameter name="app-activity" value="md521a3ad8fefa5cf65356a32cd4e6986d1.MainActivity" />
+        <parameter name="app-package" value="APP_PACKAGE_NAME" />
+        <parameter name="app-activity" value="APP_ACTIVITY_ID" />
         <parameter name="wda-system-port" value="8200" />
         <classes>
-            <class name="Sample" />
+            <class name="com.appium.framework.tests.Sample" />
         </classes>
     </test>
 
@@ -25,11 +25,11 @@
         <parameter name="platform-name" value="iOS" />
         <parameter name="platform-version" value="13.1.2" />
         <parameter name="automation-name" value="XCUITest" />
-        <parameter name="udid" value="c9381cebc4b44f23cc8fab5c60fa2d95b01224d3" />
-        <parameter name="bundle-id" value="com.imriel.ner" />
+        <parameter name="udid" value="DEVICE_UDID" />
+        <parameter name="bundle-id" value="APP_BUNDLE_ID" />
        <parameter name="wda-port" value="8200" />
         <classes>
-            <class name="Sample" />
+            <class name="com.appium.framework.tests.Sample" />
         </classes>
     </test>
 
@@ -39,11 +39,11 @@
         <parameter name="platform-name" value="iOS" />
         <parameter name="platform-version" value="13.2" />
         <parameter name="automation-name" value="XCUITest" />
-        <parameter name="udid" value="10d0928fcefbc58b109f0451f865907d9e4c9aba" />
-        <parameter name="bundle-id" value="com.imriel.ner" />
+        <parameter name="udid" value="DEVICE_UDID" />
+        <parameter name="bundle-id" value="APP_BUNDLE_ID" />
         <parameter name="wda-port" value="8201" />
         <classes>
-            <class name="Sample" />
+            <class name="com.appium.framework.tests.Sample" />
         </classes>
     </test>
 -->
@@ -53,11 +53,11 @@
         <parameter name="platform-name" value="iOS" />
         <parameter name="platform-version" value="13.1.2" />
         <parameter name="automation-name" value="XCUITest" />
-        <parameter name="udid" value="8aa98c19198f04466247f7f4bd738efb84c27af1" />
-        <parameter name="bundle-id" value="com.imriel.ner" />
+        <parameter name="udid" value="DEVICE_UDID" />
+        <parameter name="bundle-id" value="APP_BUNDLE_ID" />
         <parameter name="wda-port" value="8202" />
         <classes>
-            <class name="Sample" />
+            <class name="com.appium.framework.tests.Sample" />
         </classes>
     </test>
 
@@ -66,11 +66,11 @@
         <parameter name="platform-name" value="iOS" />
         <parameter name="platform-version" value="13.1.3" />
         <parameter name="automation-name" value="XCUITest" />
-        <parameter name="udid" value="7b3b79f0438e0c080cc559993bfdc19ed5ada3e6" />
-        <parameter name="bundle-id" value="com.imriel.ner" />
+        <parameter name="udid" value="DEVICE_UDID" />
+        <parameter name="bundle-id" value="APP_BUNDLE_ID" />
         <parameter name="wda-port" value="8203" />
         <classes>
-            <class name="Sample" />
+            <class name="com.appium.framework.tests.Sample" />
         </classes>
     </test>
 
