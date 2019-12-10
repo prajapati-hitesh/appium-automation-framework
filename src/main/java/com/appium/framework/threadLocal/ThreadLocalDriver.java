@@ -1,4 +1,4 @@
-package com.appium.threadLocal;
+package com.appium.framework.threadLocal;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;

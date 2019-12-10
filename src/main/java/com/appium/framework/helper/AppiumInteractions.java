@@ -1,11 +1,10 @@
-package com.appium.helper;
+package com.appium.framework.helper;
 
-import com.appium.utility.DateUtility;
-import com.appium.threadLocal.ThreadLocalDriver;
+import com.appium.framework.threadLocal.ThreadLocalDriver;
+import com.appium.framework.utility.DateUtility;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.remote.RemoteWebElement;

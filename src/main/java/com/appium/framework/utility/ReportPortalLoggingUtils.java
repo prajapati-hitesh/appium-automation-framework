@@ -1,6 +1,6 @@
-package com.appium.utility;
+package com.appium.framework.utility;
 
-import com.appium.threadLocal.ThreadLocalLogger;
+import com.appium.framework.threadLocal.ThreadLocalLogger;
 import org.apache.logging.log4j.LogManager;
 import rp.com.google.common.io.BaseEncoding;
 

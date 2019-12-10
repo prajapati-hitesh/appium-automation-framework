@@ -1,8 +1,8 @@
-package com.appium.pages;
+package com.appium.framework.pages;
 
-import com.appium.helper.AppiumInteractions;
-import com.appium.threadLocal.ThreadLocalDriver;
-import com.appium.threadLocal.ThreadLocalLogger;
+import com.appium.framework.helper.AppiumInteractions;
+import com.appium.framework.threadLocal.ThreadLocalDriver;
+import com.appium.framework.threadLocal.ThreadLocalLogger;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;

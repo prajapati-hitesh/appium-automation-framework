@@ -1,4 +1,4 @@
-package com.appium.listeners;
+package com.appium.framework.listeners;
 
 import org.testng.ISuiteListener;
 

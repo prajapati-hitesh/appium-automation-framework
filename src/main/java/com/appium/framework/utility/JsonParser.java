@@ -1,4 +1,4 @@
-package com.appium.utility;
+package com.appium.framework.utility;
 
 import java.io.FileReader;
 import java.io.IOException;

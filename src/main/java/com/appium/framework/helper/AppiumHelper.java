@@ -1,6 +1,6 @@
-package com.appium.helper;
+package com.appium.framework.helper;
 
-import com.appium.utility.PropertiesUtility;
+import com.appium.framework.utility.PropertiesUtility;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;

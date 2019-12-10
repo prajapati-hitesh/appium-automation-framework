@@ -1,4 +1,4 @@
-package com.appium.utility;
+package com.appium.framework.utility;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package com.appium.utility;
+package com.appium.framework.utility;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;

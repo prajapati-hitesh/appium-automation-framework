@@ -1,10 +1,10 @@
-package com.appium.base;
+package com.appium.framework.base;
 
-import com.appium.utility.DateUtility;
-import com.appium.utility.SystemUtility;
-import com.appium.utility.WaitUtility;
-import com.appium.threadLocal.ThreadAppiumServer;
-import com.appium.threadLocal.ThreadLocalDriver;
+import com.appium.framework.threadLocal.ThreadAppiumServer;
+import com.appium.framework.threadLocal.ThreadLocalDriver;
+import com.appium.framework.utility.DateUtility;
+import com.appium.framework.utility.SystemUtility;
+import com.appium.framework.utility.WaitUtility;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;

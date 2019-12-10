@@ -1,4 +1,4 @@
-package com.appium.utility;
+package com.appium.framework.utility;
 
 public class WaitUtility {
     public void hardWait(int timeInSeconds) throws InterruptedException {

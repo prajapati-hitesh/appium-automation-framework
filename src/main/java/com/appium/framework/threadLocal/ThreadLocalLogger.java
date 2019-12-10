@@ -1,4 +1,4 @@
-package com.appium.threadLocal;
+package com.appium.framework.threadLocal;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.ThreadContext;

@@ -1,15 +1,12 @@
-package com.appium.tests;
+package com.appium.framework.tests;
 
-import com.appium.base.AppiumBase;
-import com.appium.pages.CalcHomePage;
-import com.appium.utility.ReportPortalLoggingUtils;
-import com.appium.utility.ScreenshotUtility;
-import com.appium.threadLocal.ThreadLocalDriver;
-import com.appium.threadLocal.ThreadLocalLogger;
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
+import com.appium.framework.base.AppiumBase;
+import com.appium.framework.pages.CalcHomePage;
+import com.appium.framework.threadLocal.ThreadLocalDriver;
+import com.appium.framework.threadLocal.ThreadLocalLogger;
+import com.appium.framework.utility.ReportPortalLoggingUtils;
+import com.appium.framework.utility.ScreenshotUtility;
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

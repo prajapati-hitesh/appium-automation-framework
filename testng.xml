@@ -3,7 +3,7 @@
 
 <suite name="NER - Test Suite" verbose="1" parallel="tests" thread-count="4" preserve-order="false">
     <listeners>
-        <listener class-name="com.appium.listeners.TestListener" />
+        <listener class-name="com.appium.framework.listeners.TestListener" />
         <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener" />
     </listeners>
     <test name="NER - Smoke Test - Nexus 6P" >

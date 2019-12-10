@@ -1,4 +1,4 @@
-package com.appium.utility;
+package com.appium.framework.utility;
 
 import org.apache.commons.configuration2.Configuration;
 import org.apache.commons.configuration2.FileBasedConfiguration;
